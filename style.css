@@ -6,9 +6,10 @@ body{
 
 .btext{
     color: #f9f3f4;
-    position: absolute;
+    position: relative;
     text-align: center;
-    top: 40%;
+    top: 30%;
+    right: 18%;
     width: 100%;
     line-height: 0.4em;
 }
@@ -37,4 +38,32 @@ h1{
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.contain {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blg{
+    margin:2%;
+    margin-bottom: 8%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    box-shadow: 5px black;
 }
