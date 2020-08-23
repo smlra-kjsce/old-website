@@ -44,7 +44,7 @@ h1{
 }
 
 #particles-js{
-    background-image: url('test.png');
+    background-image: url('./Images/test.png');
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -86,3 +86,4 @@ a:link {
 .fab:hover{
     color:  #1a0033 !important;
 }
+
