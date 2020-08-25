@@ -44,7 +44,7 @@ h1{
 }
 
 #particles-js{
-    background-image: url('./Images/test.png');
+    background-image: url('./Images/test_bg.png');
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
