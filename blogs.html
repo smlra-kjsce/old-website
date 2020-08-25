@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMLRA</title>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -57,23 +57,47 @@
 
     <div class="blg" style="margin-top: 10%;">
       <h2 class="text-center" style="margin-bottom: 4%;">BLOGS BY SMLRA</h2>
+        
+         <div class="card-deck" style="padding-left: 10%;padding-right: 10% ">
+            <div class="card shadow " style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%; ">
+                <a href="https://medium.com/@smlra_kjsce/vectorized-view-of-svms-6a85dae8ca72">
+                    <img class="card-img-top" src="./Images/blog4_img.PNG" alt="blog">
+                    <div class="card-body text-dark">
+                    <h5 class="card-title">The Secrets of SVMs </h5>
+                    <p class="card-text">This article is continuation of 2nd part in “ML-DL-101” series -
+                       “Supporting SVMs (Support Vector Machines)”. You want to give it a read before going 
+                       through this one. In this 4th blog, we will dive deeper into the intricacies of SVMs 
+                       and their working.It is one of the most widely used algorithms today every ML Engineer should
+                       have it in it’s toolbox of ML algorithms. You will also get to know about Quadratic Programming which is
+                        widely used in solving optimization problems. Without further ado, 
+                        let’s get started in this amazing journey to understand SVM's and explore it to 
+                        the fullest. Let's begin this journey. </p>
+                    <p class="card-text"><small class="text-muted">30th April 2020</small></p>
+                    </div>
+                </a>
+                    
+                </div>
+
+            <div class="card shadow " style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%;">
+                <a href="https://medium.com/@smlra_kjsce/back-to-basics-with-linear-regression-78dd7106f7bd">
+                    <img class="card-img-top" src="./Images/blog3_img.PNG" alt="blog" >
+                    <div class="card-body text-dark">
+                    <h5 class="card-title">Back to Basics with Linear Regression</h5>
+                    <p class="card-text">
+                      In this 3rd article of the “ML-DL-101” series we introduce you to the most basic 
+                      and simple yet powerful machine learning algorithm that almost every newbie to ML 
+                      starts off with - “Linear Regression”. We will cover linear regression with one 
+                      variable and also show how linear regression can be extended to accommodate
+                       multiple input variables, namely “Multivariate Linear Regression”. Let’s Begin.
+                    </p>
+                    <p class="card-text"><small class="text-muted">25th March 2020</small></p>
+                    </div>
+                </a>
+                    
+                </div>
+        </div>
+
         <div class="card-deck" style="padding-left: 10%;padding-right: 10% ">
-            <div class="card shadow" style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%;">
-            <a href="https://medium.com/@smlra_kjsce/understanding-decision-trees-8a3a78494836">
-                <img class="card-img-top" src="./Images/blog1_img.PNG" alt="blog">
-              <div class="card-body text-dark">
-                <h5 class="card-title">Understanding Decision Trees</h5>
-                <p class="card-text">In this first article of “ML DL-101” series we 
-                   you to one of most common and easy to use/interpret machine learning 
-                   algorithm called “Decision Trees”. We will look under the hood and understand
-                    it’s working and gain insight on the math involved . We will also touch upon
-                     “Random Forests” which will involve creating a forest of multiple decision trees.
-                      So let’s get started.</p>
-                <p class="card-text"><small class="text-muted">10th Feb 2020</small></p>
-              </div>
-            </a>
-              
-            </div>
 
             <div class="card shadow " style="height:max-content;border-width: 0px;width:27rem; margin-bottom: 5%; ">
                 <a href="https://medium.com/@smlra_kjsce/supporting-svms-support-vector-machines-bf5bfba88a0b">
@@ -81,7 +105,7 @@
                   <div class="card-body text-dark">
                     <h5 class="card-title">Supporting SVMs (Support Vector Machines)</h5>
                     <p class="card-text">
-                      Welcome back to the 2nd part of “ML - DL 101” series. 
+                      Welcome back to the 2nd part of “ML-DL-101” series. 
                       In this article we will uncover the details of one of the most powerful “black-box” 
                       learning algorithm - “Support Vector Machines”.
                        It is one of the most widely used algorithms today and every ML Engineer should
@@ -94,47 +118,41 @@
                 </a>
                   
                 </div>
+
+                <div class="card shadow" style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%;">
+            <a href="https://medium.com/@smlra_kjsce/understanding-decision-trees-8a3a78494836">
+                <img class="card-img-top" src="./Images/blog1_img.PNG" alt="blog">
+              <div class="card-body text-dark">
+                <h5 class="card-title">Understanding Decision Trees</h5>
+                <p class="card-text">In this first article of “ML-DL-101” series we introduce
+                   you to one of most common and easy to use/interpret machine learning 
+                   algorithm called “Decision Trees”. We will look under the hood and understand
+                    it’s working and gain insight on the math involved . We will also touch upon
+                     “Random Forests” which will involve creating a forest of multiple decision trees.
+                      So, let’s get started.</p>
+                <p class="card-text"><small class="text-muted">10th Feb 2020</small></p>
+              </div>
+            </a>
+              
+            </div>
         </div>
+      
         <div class="card-deck" style="padding-left: 10%;padding-right: 10% ">
 
-            <div class="card shadow " style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%;">
-                <a href="https://medium.com/@smlra_kjsce/back-to-basics-with-linear-regression-78dd7106f7bd">
-                    <img class="card-img-top" src="./Images/blog3_img.PNG" alt="blog" >
-                    <div class="card-body text-dark">
-                    <h5 class="card-title">Back to Basics with Linear Regression</h5>
-                    <p class="card-text">
-                      In this 3rd article of the “ML - DL 101” series we introduce you to the most basic 
-                      and simple yet powerful machine learning algorithm that almost every newbie to ML 
-                      starts off with - “Linear Regression”. We will cover linear regression with one 
-                      variable and also show how linear regression can be extended to accommodate
-                       multiple input variables, namely “Multivariate Linear Regression”. Let’s Begin.
-                    </p>
-                    <p class="card-text"><small class="text-muted">25th March 2020</small></p>
-                    </div>
-                </a>
-                    
+                <div class="card shadow " style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%; ">
+                  <a href="https://medium.com/@smlra_kjsce/whats-the-res-in-resnet-part-ii-96612490cb8e">
+                      <img class="card-img-top" src="./Images/blog6_img.PNG" alt="blog">
+                      <div class="card-body text-dark">
+                      <h5 class="card-title">What’s the “Res” in “ResNet”? [Part II]</h5>
+                      <p class="card-text">Welcome back to the 2nd and last part of the blog - What’s the “Res” in 
+                        “ResNet”? In this blog we will mainly talk about how the issue of degradation is addressed by
+                         ResNet and how Residual Learning eases the training of deep networks which are easier to
+                          optimize and can gain accuracy from considerably increased depth.</p>
+                      <p class="card-text"><small class="text-muted">16th December 2019</small></p>
+                      </div>
+                  </a>
+                      
                 </div>
-
-            <div class="card shadow " style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%; ">
-                <a href="https://medium.com/@smlra_kjsce/vectorized-view-of-svms-6a85dae8ca72">
-                    <img class="card-img-top" src="./Images/blog4_img.PNG" alt="blog">
-                    <div class="card-body text-dark">
-                    <h5 class="card-title">The Secrets of SVMs </h5>
-                    <p class="card-text">This article is continuation of 2nd part in “ML - DL 101” series -
-                       “Supporting SVMs (Support Vector Machines)”. You want to give it a read before going 
-                       through this one. In this 4th blog, we will dive deeper into the intricacies of SVMs 
-                       and their working.It is one of the most widely used algorithms today every ML Engineer should
-                       have it in it’s toolbox of ML algorithms. You will also get to know about Quadratic Programming which is
-                        widely used in solving optimization problems. Without further ado, 
-                        let’s get started in this amazing journey to understand SVM's and explore it to 
-                        the fullest. Let's Begin this journey. </p>
-                    <p class="card-text"><small class="text-muted">30th April 2020</small></p>
-                    </div>
-                </a>
-                    
-                </div>
-        </div>
-        <div class="card-deck" style="padding-left: 10%;padding-right: 10% ">
 
                 <div class="card shadow " style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%;">
                   <a href="https://medium.com/@smlra_kjsce/whats-the-res-in-resnet-part-i-389116531796">
@@ -151,21 +169,6 @@
                   </a>
                       
                 </div>
-
-                <div class="card shadow " style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%; ">
-                  <a href="https://medium.com/@smlra_kjsce/whats-the-res-in-resnet-part-ii-96612490cb8e">
-                      <img class="card-img-top" src="./Images/blog6_img.PNG" alt="blog">
-                      <div class="card-body text-dark">
-                      <h5 class="card-title">What’s the “Res” in “ResNet”? [Part II]</h5>
-                      <p class="card-text">Welcome back to the 2nd and last part of the blog - What’s the “Res” in 
-                        “ResNet”? In this blog we will mainly talk about how the issue of degradation is addressed by
-                         ResNet and how Residual Learning eases the training of deep networks which are easier to
-                          optimize and can gain accuracy from considerably increased depth.</p>
-                      <p class="card-text"><small class="text-muted">16th December 2019</small></p>
-                      </div>
-                  </a>
-                      
-                </div>
         </div>
     </div>
 
@@ -177,6 +180,12 @@
               <h5 class="font-weight-bold text-uppercase mt-3 mb-4" >SMLRA</h5>
               <p>Somaiya Machine Learning Research Association<br>The Artificial Intelligence Community of KJSCE</p>
             </div>
+            <div class="col-md-3 mx-auto">
+                  <br>
+                  <p style="color: black; font-size: 90%"><a href = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.7777383728508!2d72.89735661400321!3d19.073507387089325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c627a20bcaa9%3A0xb2fd3bcfeac0052a!2sK.%20J.%20Somaiya%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1598375061206!5m2!1sen!2sin" style="text-decoration: none;!important"><i class="fas fa-map-marker mx-2"></i>KJSCE, Mumbai, Maharashtra, India</a></p>
+                  <br>
+                  <p style="color: black; font-size: 90%"><a href = "mailto: aicouncil.kjsce@somaiya.edu" style="text-decoration: none;!important"><i class="fas fa-envelope"></i>  <u>aicouncil.kjsce@somaiya.edu</u></a> </p>
+                </div>
             <div class="col-md-3 mx-auto">
               <h5 style="text-align: center;">Contact Us</h5>
               <br>
@@ -204,11 +213,6 @@
                 <li class="list-inline-item">
                   <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/smlrakjsce/">
                     <i class="fab fa-facebook fa-2x"> </i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-floating btn-dribbble mx-1" href="https://medium.com/@smlra_kjsce/">
-                    <i class="fab fa-google fa-2x"></i>
                   </a>
                 </li>
               </ul>
