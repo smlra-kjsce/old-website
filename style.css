@@ -19,8 +19,8 @@ body::-webkit-scrollbar{
     color: #f9f3f4;
     position: relative;
     text-align: center;
-    top: 14%;
-    right: 16%;
+    top: 20%;
+    right: 21%;
     width: 100%;
     line-height: 0.4em;
 }
@@ -83,7 +83,7 @@ a:link {
     margin: 3%;
 }
 
-.fab:hover{
+/* .fab:hover{
     color:  #1a0033 !important;
-}
+} */
 
