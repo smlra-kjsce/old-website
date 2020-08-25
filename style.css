@@ -19,8 +19,8 @@ body::-webkit-scrollbar{
     color: #f9f3f4;
     position: relative;
     text-align: center;
-    top: 30%;
-    right: 18%;
+    top: 14%;
+    right: 16%;
     width: 100%;
     line-height: 0.4em;
 }
