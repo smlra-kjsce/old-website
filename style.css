@@ -90,3 +90,8 @@ a:link {
     color:  #1a0033 !important;
 } */
 
+
+.hide {
+    display: none;
+  }
+

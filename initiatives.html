@@ -57,28 +57,79 @@
       </div>
 
       <section class="init" style="padding-left: 5%;padding-right: 5%;margin-bottom: 5%;">
+        <label for="select" style="text-align: center;">Year:</label>
+        <select class="div-toggle" data-target=".my-info-1" style="margin-bottom: 3%;">
+            <option value="2018" data-show=".2018">2018</option>
+            <option value="2019" data-show=".2019">2019</option>
+            <option value="2020" data-show=".2020">2020</option>
+          </select>
+          
+          <div class="my-info-1">
+            <div class="2018 hide">
+                <div class="card-deck">
+                    <div class="card">
+                      <img class="card-img-top" src="..." alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">2018</h5>
+                        <p class="card-text">year is 2018</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="..." alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">2018</h5>
+                        <p class="card-text">year is 2018</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    
+                    </div>
+            </div>
+            <div class="2019 hide">
+                <div class="card-deck">
+                    <div class="card">
+                      <img class="card-img-top" src="..." alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">2019</h5>
+                        <p class="card-text">year is 2019</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="..." alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">2019</h5>
+                        <p class="card-text">year is 2019</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+            </div>
+            </div>
+            <div class="2020 hide">
+                <div class="card-deck">
+                    <div class="card">
+                      <img class="card-img-top" src="..." alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">2020</h5>
+                        <p class="card-text">year is 2020</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="..." alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">2020</h5>
+                        <p class="card-text">year is 2020</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+            </div>
+
+          </div>
 
         
-        <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            
-            </div>
-          </div>
+          
       </section>
 
 
@@ -114,6 +165,11 @@
                       <i class="fab fa-github fa-2x"> </i>
                     </a>
                   </li>
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-dribbble mx-1" href="https://medium.com/@smlra_kjsce/">
+                      <i class="fab fa-medium fa-2x"></i>h
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -124,5 +180,17 @@
         </div>
       </footer>
     </section>
+
+    <script>
+        $(document).on('change', '.div-toggle', function() {
+  var target = $(this).data('target');
+  var show = $("option:selected", this).data('show');
+  $(target).children().addClass('hide');
+  $(show).removeClass('hide');
+});
+$(document).ready(function(){
+    $('.div-toggle').trigger('change');
+});
+    </script>
 </body>
 </html>
