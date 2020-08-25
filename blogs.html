@@ -14,29 +14,35 @@
     <link rel="icon" href="./Images/pic.png" type="image/icon type">
 
 </head>
-<body style="font-family: 'Montserrat', sans-serif;">
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black;">
-        <a class="navbar-brand" href="/index.html"><img src="./Images/pic.png" alt="smlra" style="width: 8%; height: 5%;"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-white" id="navbarNavDropdown" style="padding-right: 22%;">
-          <ul class="navbar-nav" style="font-size: large;">
-            <li class="nav-item" style="padding-right: 18%;">
-              <a class="nav-link" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item" style="padding-right: 18%;">
-              <a class="nav-link" href="/about.html">About</a>
-            </li>
-            <li class="nav-item active" style="padding-right: 18%;">
-              <a class="nav-link" href="/blogs.html">Blogs</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/team.html">Team</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+<body style="font-family: 'Crimson Text', serif;">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+    <a class="navbar-brand" href="/index.html"><img src="./Images/pic.png" alt="smlra" style="width: 8%; height: 5%;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-white" id="navbarText" style="padding-right: 27%;">
+      <ul class="navbar-nav ml-auto text-white" style="font-size: large;">
+        <li class="nav-item text-white" style="padding-right:11%;">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item text-white" style="padding-right: 11%;">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+        <li class="nav-item text-white active" style="padding-right: 11%;">
+          <a class="nav-link" href="./blogs.html">Blogs</a>
+        </li>
+        <li class="nav-item text-white" style="padding-right: 11%;">
+          <a class="nav-link" href="./initiatives.html">Initiatives</a>
+        </li>
+        <li class="nav-item text-white" style="padding-right: 11%;">
+            <a class="nav-link" href="./team.html">Team</a>
+        </li>
+        <li class="nav-item text-white">
+            <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
       <div class="row" style="margin:5%">
         <div class="col">
             <img src="./Images/blog.svg" alt="blog" style="width: 100%;">
@@ -51,13 +57,13 @@
 
     <div class="blg" style="margin-top: 10%;">
       <h2 class="text-center" style="margin-bottom: 4%;">BLOGS BY SMLRA</h2>
-        <div class="row" style="padding-left: 10%;padding-right: 10% ">
-            <div class="card shadow" style="height:max-content;border-width: 0px; width:27rem; margin-right: 7%; margin-bottom: 5%;">
+        <div class="card-deck" style="padding-left: 10%;padding-right: 10% ">
+            <div class="card shadow" style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%;">
             <a href="https://medium.com/@smlra_kjsce/understanding-decision-trees-8a3a78494836">
                 <img class="card-img-top" src="./Images/blog1_img.PNG" alt="blog">
               <div class="card-body text-dark">
                 <h5 class="card-title">Understanding Decision Trees</h5>
-                <p class="card-text">In this first article of “ML DL - 101” series we 
+                <p class="card-text">In this first article of “ML DL-101” series we 
                    you to one of most common and easy to use/interpret machine learning 
                    algorithm called “Decision Trees”. We will look under the hood and understand
                     it’s working and gain insight on the math involved . We will also touch upon
@@ -69,17 +75,17 @@
               
             </div>
 
-            <div class="card shadow " style="height:max-content;border-width: 0px;width:27rem; margin-bottom: 5%; margin-left: 6%;">
+            <div class="card shadow " style="height:max-content;border-width: 0px;width:27rem; margin-bottom: 5%; ">
                 <a href="https://medium.com/@smlra_kjsce/supporting-svms-support-vector-machines-bf5bfba88a0b">
                     <img class="card-img-top" src="./Images/blog2_img.PNG" alt="blog">
                   <div class="card-body text-dark">
                     <h5 class="card-title">Supporting SVMs (Support Vector Machines)</h5>
                     <p class="card-text">
                       Welcome back to the 2nd part of “ML - DL 101” series. 
-                      In this article we will uncover the details of one of the most powerful “black - box” 
+                      In this article we will uncover the details of one of the most powerful “black-box” 
                       learning algorithm - “Support Vector Machines”.
                        It is one of the most widely used algorithms today and every ML Engineer should
-                        have it in it’s toolbox of ML algorithms. But before getting started, make 
+                        have it in it’s toolbox. But before getting started, make 
                         sure you have a fine grasp of these  2 ML models - Linear and Logistic Regression.
                        
                     </p>
@@ -88,10 +94,12 @@
                 </a>
                   
                 </div>
+        </div>
+        <div class="card-deck" style="padding-left: 10%;padding-right: 10% ">
 
-            <div class="card shadow " style="height:max-content;border-width: 0px; width:27rem; margin-right: 7%; margin-bottom: 5%;">
+            <div class="card shadow " style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%;">
                 <a href="https://medium.com/@smlra_kjsce/back-to-basics-with-linear-regression-78dd7106f7bd">
-                    <img class="card-img-top" src="./Images/blog3_img.PNG" alt="blog">
+                    <img class="card-img-top" src="./Images/blog3_img.PNG" alt="blog" >
                     <div class="card-body text-dark">
                     <h5 class="card-title">Back to Basics with Linear Regression</h5>
                     <p class="card-text">
@@ -107,7 +115,7 @@
                     
                 </div>
 
-            <div class="card shadow " style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%; margin-left: 6%;">
+            <div class="card shadow " style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%; ">
                 <a href="https://medium.com/@smlra_kjsce/vectorized-view-of-svms-6a85dae8ca72">
                     <img class="card-img-top" src="./Images/blog4_img.PNG" alt="blog">
                     <div class="card-body text-dark">
@@ -117,13 +125,18 @@
                        through this one. In this 4th blog, we will dive deeper into the intricacies of SVMs 
                        and their working.It is one of the most widely used algorithms today every ML Engineer should
                        have it in it’s toolbox of ML algorithms. You will also get to know about Quadratic Programming which is
-                        widely used in solving optimization problems. Without further ado, let’s get started in this amazing journey to understand SVM's and explore it to the fullest.Let's Begin.</p>
+                        widely used in solving optimization problems. Without further ado, 
+                        let’s get started in this amazing journey to understand SVM's and explore it to 
+                        the fullest. Let's Begin this journey. </p>
                     <p class="card-text"><small class="text-muted">30th April 2020</small></p>
                     </div>
                 </a>
                     
                 </div>
-                <div class="card shadow " style="height:max-content;border-width: 0px; width:27rem; margin-right: 7%; margin-bottom: 5%;">
+        </div>
+        <div class="card-deck" style="padding-left: 10%;padding-right: 10% ">
+
+                <div class="card shadow " style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%;">
                   <a href="https://medium.com/@smlra_kjsce/whats-the-res-in-resnet-part-i-389116531796">
                       <img class="card-img-top" src="./Images/blog5_img.PNG" alt="blog">
                       <div class="card-body text-dark">
@@ -139,7 +152,7 @@
                       
                 </div>
 
-                <div class="card shadow " style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%; margin-left: 6%;">
+                <div class="card shadow " style="height:max-content;border-width: 0px; width:27rem; margin-bottom: 5%; ">
                   <a href="https://medium.com/@smlra_kjsce/whats-the-res-in-resnet-part-ii-96612490cb8e">
                       <img class="card-img-top" src="./Images/blog6_img.PNG" alt="blog">
                       <div class="card-body text-dark">
@@ -156,52 +169,47 @@
         </div>
     </div>
 
-      <section class="footer" style="background-color: black; color:white;">
-        <footer class="page-footer font-small stylish-color-dark pt-4">
-          <div class="container text-center text-md-left">
-            <div class="row">
-              <div class="col-md-4 mx-auto">
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">SMLRA</h5>
-                <p>Somaiya Machine Learning Research Association<br>The Artificial Intelligence Community of KJSCE</p>
-              </div>
-              <div class="col-md-3 mx-auto">
-                 <h5 style="text-align: center;">Contact Us</h5>
-                <br>
-                <ul class="list-unstyled list-inline text-center" style="color: wheat;">
-                  <li class="list-inline-item">
-                    <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/smlrakjsce/" target="_blank">
-                      <i class="fab fa-facebook-f "> </i>
-                    </a>
-                  </li>   
-                  <li class="list-inline-item">
-                    <a class="btn-floating btn-tw mx-1" href="https://twitter.com/smlra_kjsce" target="_blank">
-                      <i class="fab fa-twitter"> </i>
-                    </a>
-                  </li>
-          <!-- <li class="list-inline-item">
-            <a class="btn-floating btn-gplus mx-1">
-              <i class="fab fa-google-plus-g"> </i>
-            </a>
-          </li> -->
-                  <li class="list-inline-item">
-                    <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/company/smlra-kjsce/" target="_blank">
-                      <i class="fab fa-linkedin-in"> </i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a class="btn-floating btn-dribbble mx-1" href="https://github.com/smlra-kjsce" target="_blank">
-                      <i class="fab fa-github"> </i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+    <section class="footer" style="background-color: black; color:white;">
+      <footer class="page-footer font-small stylish-color-dark pt-4" style="background-color: black; color:white;>
+        <div class="container text-center text-md-left">
+          <div class="row">
+            <div class="col-md-4 mx-auto">
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4" >SMLRA</h5>
+              <p>Somaiya Machine Learning Research Association<br>The Artificial Intelligance Community of KJSCE</p>
+            </div>
+            <div class="col-md-3 mx-auto">
+              <h5 style="text-align: center;">Contact Us</h5>
+              <br>
+              <ul class="list-unstyled list-inline text-center" style="color: #0bebf3;">
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/smlrakjsce/">
+                    <i class="fab fa-facebook fa-2x"> </i>
+                  </a>
+                </li>   
+                <li class="list-inline-item" style="color: #0bebf3;">
+                  <a class="btn-floating btn-tw mx-1" href="https://twitter.com/smlra_kjsce">
+                    <i class="fab fa-twitter fa-2x"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/company/smlra-kjsce/">
+                    <i class="fab fa-linkedin fa-2x"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-dribbble mx-1" href="https://github.com/smlra-kjsce">
+                    <i class="fab fa-github fa-2x"> </i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
-        <div class="footer-copyright text-center py-3">
-          <p>Developed and maintained by <strong style="color: wheat;">SMLRA</strong></p>
-          <p>© 2020 Copyright</p>
         </div>
-      </footer>
-    </section>
+      <div class="footer-copyright text-center py-3">
+        <p>Developed and Maintained by <strong style="color: wheat;">SMLRA</strong></p>
+        © 2020 Copyright
+      </div>
+    </footer>
+  </section>
 </body>
 </html>
