@@ -93,5 +93,47 @@ a:link {
 
 .hide {
     display: none;
-  }
+}
 
+.map{
+    padding: 0px;
+    margin: 6%;
+}
+.container1 {
+   
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin:0px;
+    margin-right: 0%;
+    background-color: rgb(30, 61, 85) !important;
+    width: 100% !important;
+    
+}
+  
+.bottom-left {
+    position: absolute;
+        bottom: 8%;
+        left: 6%;
+}
+
+iframe{
+    height: 22rem !important;
+    width: 30rem;
+}
+.clg-img{
+    height: 43rem !important; 
+    width: 100% !important;   
+    -webkit-filter: opacity(.2);
+    filter: opacity(.2);
+    
+      
+}
+  
+
+@media only screen and (max-width: 900px) {
+    body {
+      font-size: 70% !important;
+    }
+  }
