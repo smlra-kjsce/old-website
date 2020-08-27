@@ -136,4 +136,40 @@ iframe{
     body {
       font-size: 70% !important;
     }
-  }
+}
+
+
+@media only screen and (max-width: 900px) {
+    p {
+      font-size: 90% !important;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    p {
+      font-size: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .c1 {
+      width:95% !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    iframe {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .btext{
+        margin-top: 35%;
+        position: relative;
+        left:3% !important;
+        top :200% !important;
+    }
+
+
