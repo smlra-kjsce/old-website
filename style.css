@@ -160,7 +160,7 @@ iframe{
 
 @media only screen and (max-width: 900px) {
     iframe {
-        width: 90%;
+        width:90% !important;
     }
 }
 
