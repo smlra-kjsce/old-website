@@ -19,9 +19,9 @@ body::-webkit-scrollbar{
 
 .btext{
     color: #f9f3f4;
-    position: relative;
+    position: absolute;
     text-align: center;
-    top: 20%;
+    top:35%;
     right: 21%;
     width: 100%;
     line-height: 0.4em;
@@ -166,10 +166,11 @@ iframe{
 
 @media only screen and (max-width: 900px) {
     .btext{
-        margin-top: 35%;
-        position: relative;
-        left:3% !important;
-        top :200% !important;
+      
+        position: absolute;
+        text-align: center;
+        padding-left: 30% !important;
+        
     }
 }
 
