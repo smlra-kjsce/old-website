@@ -156,25 +156,40 @@ iframe{
     .c1 {
       width:95% !important;
     }
+
+    .ill-text{
+        font-size: 77% !important;
+    }
+
+    .ill-text-ini{
+        font-size: 62% !important;
+    }
 }
 
 @media only screen and (max-width: 900px) {
     iframe {
         width:90% !important;
     }
+    
 }
+
 
 @media only screen and (max-width: 900px) {
     .btext{
         
-        position: relative;
+        /* position: relative; */
+        position:absolute;
         text-align: center;
         /* padding-left: 40% !important; */
         left: 0.5%;
         font-size: 120%;
-        top: 1%;
-        padding-top: 25%;
+        /* top: 1%; */
+        /* padding-top: 25%; */
 
+    }
+    .btext img{
+        height: 25% !important;
+        width: 25% !important;
     }
 
     
@@ -187,6 +202,25 @@ iframe{
         background-size: cover;
         overflow: hidden;
     }
+
+    .nav-link{
+        font-size: small;
+    }
+
+    .team h1{
+        font-size: xx-large;
+    }
+
+    .team row
+
+}
+    
+
+@media only screen and (max-width: 990px) {
+    .navbar-brand{
+        display: none;
+    }
+
 }
 
 
