@@ -3,6 +3,7 @@
     padding:0px;
 }
 
+
   /* Firefox */
 
 body::-webkit-scrollbar{
@@ -157,12 +158,35 @@ iframe{
       width:95% !important;
     }
 
-    .ill-text{
-        font-size: 77% !important;
+    .ill-text-b{
+        font-size: 84% !important;
     }
 
     .ill-text-ini{
-        font-size: 62% !important;
+        font-size: 77% !important;
+    }
+
+    .ill-text-team{
+        font-size: 87% !important;
+    }
+
+    .ill-text-cnt{
+        font-size: 81% !important;
+    }
+
+    .cnt-img{
+        height: 98% !important;
+    }
+
+    .ini-img{
+        height: 96%;
+    }
+
+    .ill-text-abt{
+        font-size: 80% !important;
+    }
+    .abt-img{
+        height: 96%;
     }
 }
 
