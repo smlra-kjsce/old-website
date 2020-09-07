@@ -188,6 +188,10 @@ iframe{
     .abt-img{
         height: 96%;
     }
+
+    .ini-us{
+        font-size: 250%;
+    }
 }
 
 @media only screen and (max-width: 900px) {
