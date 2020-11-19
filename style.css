@@ -79,8 +79,8 @@ a:link {
 }
 
 .card:hover{
-    transform: scale(1.03);
-    box-shadow: 5px black;
+    /* transform: scale(1.03); */
+    box-shadow: 15px black;
 }
 
 .team{
