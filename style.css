@@ -82,8 +82,8 @@ a:link {
 }
 
 .card:hover{
-    transform: scale(1.03);
-    box-shadow: 5px black;
+    /* transform: scale(1.03); */
+    box-shadow: 15px black;
 }
 
 .team{
@@ -130,7 +130,9 @@ iframe{
     height: 43rem !important; 
     width: 100% !important;   
     -webkit-filter: opacity(.2);
-    filter: opacity(.2);
+    filter: opacity(.5);
+    /* filter: alpha(opacity=.1); */
+    /* filter: blue-wash(90%); */
     
       
 }
@@ -254,4 +256,16 @@ iframe{
 }
 
 
+
+ .navbar {position: fixed;
+    top: 0;
+      width: 100%;
+      overflow: hidden;
+      z-index: 999999;
+      background-color: #5c5c8a;
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+    filter: grayscale(20%);
+}
+    
 
