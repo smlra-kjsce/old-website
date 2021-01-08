@@ -268,4 +268,6 @@ iframe{
     filter: grayscale(20%);
 }
     
-
+.card-img-top{
+    height: 15rem;
+}
